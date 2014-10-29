@@ -1,0 +1,23 @@
+{
+  "name": "Post",
+  "plural": "Posts",
+  "base": "PersistedModel",
+  "properties": {
+    "CreationDate": {
+      "type": "date"
+    },
+    "Value": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "author": {
+      "type": "belongsTo",
+      "model": "Author",
+      "foreignKey": "AuthorId"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

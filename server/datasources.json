@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "kikadicaDB": {
+    "host": "localhost",
+    "port": 27217,
+    "database": "kikadica",
+    "username": "",
+    "password": "",
+    "name": "kikadicaDB",
+    "connector": "mongodb"
+  }
+}
